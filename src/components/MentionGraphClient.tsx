@@ -77,7 +77,7 @@ export default function MentionGraphClient() {
   const transformRef = useRef<ZoomTransform>(zoomIdentity);
   const [graphSize, setGraphSize] = useState({ width: 1000, height: 640 });
 
-  const [source, setSource] = useState("dwr");
+  const [source, setSource] = useState("");
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
